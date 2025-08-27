@@ -20,25 +20,39 @@
 # Show error message.
 
 
-Week 5
-print ("Welcome to Caesar Cipher ")
-welcome = input( "Please enter your name :  ")
-print (welcome, ", I hope you enjoy encrypting and decrypting words. ")
-letter = input(" Please provide a letter of the alphabet to encrypt: ")
-shift = input("Please enter the number of places to move right in the alphabet: ")
-# Convert shift to integer
-if shift.isdigit():
-    shift = int(shift)
-#Check if the letter is a valid alphabet letter
-if letter.isalpha():
-    # Shift the letter
-    shifted = chr(((ord(letter.lower()) - ord('a') + shift) % 26) + ord('a'))
-    ascii_code = ord(shifted)
-    print("The new letter is ", shifted)
-    print (" The Ascii number for ",shifted , " is ", ascii_code, ".")
-else:
-    print(" You did not enter an alpabet character.")   
+# Week 5
+# print ("Welcome to Caesar Cipher ")
+# welcome = input( "Please enter your name :  ")
+# print (welcome, ", I hope you enjoy encrypting and decrypting words. ")
+# letter = input(" Please provide a letter of the alphabet to encrypt: ")
+# shift = input("Please enter the number of places to move right in the alphabet: ")
+# # Convert shift to integer
+# if shift.isdigit():
+#     shift = int(shift)
+# #Check if the letter is a valid alphabet letter
+# if letter.isalpha():
+#     # Shift the letter
+#     shifted = chr(((ord(letter.lower()) - ord('a') + shift) % 26) + ord('a'))
+#     ascii_code = ord(shifted)
+#     print("The new letter is ", shifted)
+#     print (" The Ascii number for ",shifted , " is ", ascii_code, ".")
+# else:
+#     print(" You did not enter an alpabet character.")   
 
-print("password")
+# print("password")
+
+# Produce 10 character sof random
+# how do I read an arguement fomr tcomand line
+
+Import random
+import sys
+
+numchars=10
+if len (sys.argv)>1:
+        numchars=int(sys.argv[1])
+passowrd =""
+
+for i in range(numchars):
+    charcode= 
 
 
