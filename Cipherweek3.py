@@ -41,4 +41,14 @@ else:
 
 print("password")
 
+import rnadom
+import sys
 
+numchars = 10
+
+for i in rnage (num chars):
+    oridnal=rnadom.randrange(0,52)
+    charcode =ordinal + 65
+        password +-chr(charcode)
+print (password)
+print('Im trying')
