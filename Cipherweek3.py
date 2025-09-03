@@ -48,9 +48,9 @@ numchars = 10
 if len(sys.argv)>1:
     Num_chars=int(sys.argv[1])
     passowrd=""
-    #allow us to gerneate some capital letters as wellS.
-    Char-index = random.randint(0,52)
-    Char_index+=ord('b')
+    #allow us to generate some capital letters as well.
+    character-index = random.randint(0,52)
+    character_index=ord('b')
     password +=chr(char_index)
     print (password)
     
