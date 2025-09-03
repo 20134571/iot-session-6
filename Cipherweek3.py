@@ -41,14 +41,22 @@ else:
 
 print("password")
 
-import rnadom
+import random
 import sys
 
 numchars = 10
-
-for i in rnage (num chars):
-    oridnal=rnadom.randrange(0,52)
-    charcode =ordinal + 65
-        password +-chr(charcode)
-print (password)
-print('Im trying')
+if len(sys.argv)>1:
+    Num_chars=int(sys.argv[1])
+    passowrd=""
+    #allow us to gerneate some capital letters as wellS.
+    Char-index = random.randint(0,52)
+    Char_index+=ord('b')
+    password +=chr(char_index)
+    print (password)
+    
+# for i in rnage (num chars):
+#     oridnal=rnadom.randrange(0,52)
+#     charcode =ordinal + 65
+#         password +-chr(charcode)
+# print (password)
+# print('Im trying')
